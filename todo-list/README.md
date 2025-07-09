@@ -59,9 +59,6 @@ git commit -m "Adiciona feature X"
 git push origin feature/nome-da-feature
 - Abra um Pull Request detalhando suas mudanças
 
-# Licença
-Este projeto está licenciado sob a licença MIT.
-Veja o arquivo LICENSE para mais detalhes.
 
 # Próximos Passos
 - Implementar filtro por status (Todas, Pendentes, Concluídas)
