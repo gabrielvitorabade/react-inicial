@@ -44,7 +44,7 @@ yarn start
 Em seguida, abra seu navegador em http://localhost:3000.
 Como interagir com a lista
 - Digite uma tarefa no campo de entrada e pressione Enter ou clique em “Adicionar”
-- Clique no texto de uma tarefa para marcar/desmarcar como concluída
+- Clique no 'concluir' de uma tarefa para marcar/desmarcar como concluída
 - Clique no ícone de lixeira para remover uma tarefa específica
 - Use “Limpar concluídas” para apagar todas as tarefas marcadas
 
