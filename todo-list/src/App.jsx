@@ -24,6 +24,18 @@ function App() {
       iscomplete:false,
     }
   ])
+  const addTodo = (text,category)=>{
+    const newTodos =[
+      ...todos,
+      {
+      id: Math.random(),
+      text,
+      category,
+      iscomplete: false,
+      }
+    ];
+    setTodos(newTodos);
+  }
  
   return (
     <div className='app'>
@@ -33,7 +45,7 @@ function App() {
           <Todos todos={todos}/>
         ))}
       </div>
-      <Todoform />
+      <Todoform addTodo ={addTodo}/>
       
     </div>
      
