@@ -7,7 +7,6 @@
 - Instalação
 - Uso
 - Contribuição
-- Licença
 - Próximos Passos
 
 # Funcionalidades
