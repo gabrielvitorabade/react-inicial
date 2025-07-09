@@ -17,7 +17,8 @@ body{
   width: 60vw;
   box-sizing: border-box;
   padding: 2em 1em;
-  border-radius: 5%;
+  border-radius: .6em;
+  margin-top: 1em;
 }
 h1{
  text-align: center;
@@ -26,8 +27,66 @@ h2{
   text-align: left;
 }
 p{
-  padding: 0em 0em 0em 1em;
+  padding:0em;
 }
-input{
+input, select{
+  padding: .4em 0 .3em .4em;
+  margin: .5em 0;
+  width: 100%;
+  border: none;
+  border-radius: .1em;
   box-sizing: border-box;
+}
+button{
+  cursor: pointer;
+  opacity: 0.8;
+  border-radius: 0.3em;
+  border: none;
+  padding: .5em;
+}
+button:hover{
+  opacity: 1;
+}
+.complete-button{
+  background-color: rgba(57, 255, 57, 0.623);
+}
+.delete-button{
+  background-color: rgba(255, 0, 0, 0.623);
+  margin-left: .5em;
+  padding: .5em .8em;
+}
+.todo-box{
+  background-color: rgba(255, 255, 255, 0.808);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: .4em;
+  padding:0em 1em;
+  margin-bottom: .8em;
+}
+.todo-content{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  padding: 0em .5em;
+}
+.todo-buttons{
+  display: flex;
+  justify-content: center;
+}
+.todo-name{
+  font-weight: bold;
+  color: rgb(2, 0, 128);
+  margin-bottom: 0;
+}
+#add-button_box{
+  display: flex;
+  justify-content: center;
+}
+#add-button{
+  background-color: rgb(2, 0, 128);
+  color: white;
+  border: none;
+  margin-top: .4em;
+  padding: .5em;
 }
