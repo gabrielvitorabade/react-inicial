@@ -88,3 +88,28 @@ button:hover{
   margin-top: .4em;
   padding: .5em;
 }
+.filter-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: .8em;
+}
+.filter-options div{
+  display: flex;
+  align-items: center;
+  padding: 0em .5em;
+}
+.filter-options button {
+  margin-left: .5em;
+  padding: .3em .5em;
+  background-color: rgba(0, 0, 0, 0.623);
+  color: white;
+  border: none;
+  border-radius: .2em;
+}
+.filter-options select{
+  display: inline-flex;
+  border-radius: .2em;
+  margin-left: 1em;
+  min-width: 1.2em;
+}
