@@ -13,7 +13,8 @@
 - Adicionar novas tarefas
 - Marcar e desmarcar tarefas como concluídas
 - Excluir tarefas individuais
-- Limpar todas as tarefas concluídas
+- Filtro para as tarefas (completas e incompletas)
+- Botão de ordenação crescente ou descrescente
 - Interface responsiva e minimalista
 
 # Tecnologias e Dependências
